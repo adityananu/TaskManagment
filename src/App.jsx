@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import TodoList from "./pages/todoList";
+import TodoList from "./pages/TodoList";
 import UserLoginSignup from "./pages/UserLoginSignup";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./firebase/firebase";
